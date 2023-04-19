@@ -106,8 +106,19 @@ body {
 
 body {
     position: relative;
-width: 1920px;
-height: 1080px;
+    width: 1920px;
+    height: 1080px;
 
-background: #F5F5F5;
+    background: #F5F5F5;
+}
+
+/* позиция для наименьшего блока текста */
+
+.text {
+    position: absolute;
+    width: 641px;
+    height: 91px;
+    left: 65px;
+    top: 288px;
+    background: #919191;
 }
