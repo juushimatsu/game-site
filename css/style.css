@@ -103,3 +103,11 @@ body {
     
     background: #120F34;
 }
+
+body {
+    position: relative;
+width: 1920px;
+height: 1080px;
+
+background: #F5F5F5;
+}
