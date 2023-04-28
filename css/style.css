@@ -71,8 +71,8 @@ table {
 body {
     margin: 0 auto;
     position: relative;
-    width: 1920px;
-    height: 1080px;
+    width: 1500px;
+    height: 100%;
 
     background: #b8dce6;
 }
