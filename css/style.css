@@ -51,31 +51,6 @@ table {
 .shadow {
     box-shadow: 0px 2px 20px #F6F2F6;
 }
-    
-
-body {
-    margin: 0 auto;
-    position: relative;
-    width: 1500px;
-    height: 800px;
-
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(84, 224, 217);
-    background: rgb(31, 48, 104);
-}
-
-
-    /* header */
-.head {
-    position: absolute;
-    width: 1500px;
-    height: 90px;
-    left: 0px;
-    top: 0px;
-    
-    background: #211A6B;
-}
-
     /* main */
     /* Стильдля рыбы (потом будет удален) */
 .lorem {
@@ -93,13 +68,21 @@ body {
     text-align: center;
 }
 
-    /* footer */
-.bottom {
+body {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+
+    background: #b8dce6;
+}
+
+/* позиция для наименьшего блока текста */
+
+.text {
     position: absolute;
-    width: 1500px;
-    height: 137px;
-    left: 0px;
-    top: 663px;
-    
-    background: #120F34;
+    width: 641px;
+    height: 91px;
+    left: 65px;
+    top: 288px;
+    background: #919191;
 }
