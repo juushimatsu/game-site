@@ -69,20 +69,250 @@ table {
 }
 
 body {
+    margin: 0 auto;
     position: relative;
-    width: 1920px;
-    height: 1080px;
+    width: 1500px;
+    height: 100%;
 
     background: #b8dce6;
 }
 
-/* позиция для наименьшего блока текста */
+/* позиция и цвет для "Описания игры"*/
 
 .text {
     position: absolute;
-    width: 641px;
-    height: 91px;
-    left: 65px;
-    top: 288px;
+    width: 421px;
+    height: 84px;
+    left: 139px;
+    top: 284px;
+
     background: #919191;
+}
+
+.foto {
+    position: absolute;
+    width: 421px;
+    height: 315px;
+    left: 139px;
+    top: 432px;
+
+    background: #BDBDBD;
+}
+
+.logo {
+    position: absolute;
+    width: 736px;
+    height: 597px;
+    left: 600px;
+    top: 221px;
+
+    background: #919191;
+}
+
+/*позиция и цвет для "Игрового мира"*/
+
+.gw1 {
+    position: absolute;
+    width: 332px;
+    height: 248px;
+    left: 208px;
+    top: 1224px;
+
+    background: #BDBDBD;
+}
+
+.gw2 {
+    position: absolute;
+    width: 332px;
+    height: 248px;
+    left: 561px;
+    top: 1224px;
+
+    background: #BDBDBD;
+}
+
+.gw3 {
+    position: absolute;
+    width: 332px;
+    height: 248px;
+    left: 916px;
+    top: 1223px;
+
+    background: #BDBDBD;
+}
+
+.gw4 {
+    position: absolute;
+    width: 268px;
+    height: 164px;
+    left: 236px;
+    top: 1609px;
+
+    background: #8E8E8E;
+}
+
+.gw5 {
+    position: absolute;
+    width: 267px;
+    height: 164px;
+    left: 576px;
+    top: 1609px;
+
+    background: #8E8E8E;
+}
+
+.gw6 {
+    position: absolute;
+    width: 266px;
+    height: 164px;
+    left: 936px;
+    top: 1606px;
+
+    background: #8E8E8E;
+}
+
+/*Позиция и цвет для "Персонажи и враги"*/
+
+.name {
+    position: absolute;
+    width: 702px;
+    height: 103px;
+    left: 355px;
+    top: 2011px;
+
+    background: #8B8B8B;
+}
+
+.cr1 {
+    position: absolute;
+    width: 743px;
+    height: 673px;
+    left: 123px;
+    top: 2187px;
+
+    background: #BDBDBD;
+}
+
+.enem1 {
+    position: absolute;
+    width: 130px;
+    height: 176px;
+    left: 899px;
+    top: 2187px;
+
+    background: #BDBDBD;
+}
+
+.cr2 {
+    position: absolute;
+    width: 130px;
+    height: 176px;
+    left: 1057px;
+    top: 2187px;
+
+    background: #BDBDBD;
+}
+
+.enem2 {
+    position: absolute;
+    width: 130px;
+    height: 176px;
+    left: 1215px;
+    top: 2187px;
+
+    background: #BDBDBD;
+}
+
+/*Позиция и цвет для "Геймплея"*/
+
+.gp1 {
+    position: absolute;
+    width: 632px;
+    height: 500px;
+    left: 95px;
+    top: 3116px;
+
+    background: radial-gradient(50% 50% at 50.1% 50%, #D9D9D9 0%, #A4A4A4 100%);
+}
+
+.gp2 {
+    position: absolute;
+    width: 632px;
+    height: 500px;
+    left: 727px;
+    top: 3116px;
+
+    background: linear-gradient(180deg, #8A8A8A 0%, #6C6C6C 100%);
+}
+
+.gp3 {
+    position: absolute;
+    width: 632px;
+    height: 500px;
+    left: 95px;
+    top: 3616px;
+
+    background: linear-gradient(180deg, #8A8A8A 0%, #6C6C6C 100%);
+}
+
+.gp4 {
+    position: absolute;
+    width: 632px;
+    height: 500px;
+    left: 727px;
+    top: 3616px;
+
+    background: radial-gradient(50% 50% at 50.1% 50%, #D9D9D9 0%, #A4A4A4 100%);
+}
+
+/*Позиция и цвет для "Регистрация на бета тест"*/
+
+.text1 {
+    position: absolute;
+    width: 271px;
+    height: 34px;
+    left: 591px;
+    top: 4539px;
+
+    background: #BDBDBD;
+}
+
+.text2 {
+    position: absolute;
+    width: 643px;
+    height: 99px;
+    left: 405px;
+    top: 4612px;
+
+    background: #8E8E8E;
+}
+
+.text3 {
+    position: absolute;
+    width: 350px;
+    height: 11px;
+    left: 552px;
+    top: 4750px;
+
+    background: #D9D9D9;
+}
+
+.button1 {
+    position: absolute;
+    width: 788px;
+    height: 112px;
+    left: 176px;
+    top: 4808px;
+
+    background: #8E8E8E;
+}
+
+.button2 {
+    position: absolute;
+    width: 256px;
+    height: 112px;
+    left: 1048px;
+    top: 4808px;
+
+    background: #8E8E8E;
 }

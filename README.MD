@@ -1,11 +1,7 @@
-# juushimatsu branch
+# Oleg branch
 ---
 ### Документация
 
-> Изменение Readme
-> README.MD
-_без описания_
 =======
-> Изменение style.css
-> 
-
+> Изменение README.MD
+>
