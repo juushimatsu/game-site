@@ -45,12 +45,6 @@ table {
     border-spacing: 0;
 }
 
-/* Basic styles */
-
-    /* Отображает рабочую область (Будет удален)*/
-.shadow {
-    box-shadow: 0px 2px 20px #F6F2F6;
-}
     /* main */
     /* Стильдля рыбы (потом будет удален) */
 .lorem {
@@ -73,11 +67,20 @@ body {
     position: relative;
     width: 1500px;
     height: 100%;
-
-    background: #b8dce6;
 }
 
 /* позиция и цвет для "Описания игры"*/
+
+.info {
+    position: absolute;
+width: 1692px;
+height: 78px;
+left: 61px;
+top: 42px;
+
+background: rgba(137, 58, 137, 0.45);
+border-radius: 74px;
+}
 
 .text {
     position: absolute;
@@ -318,28 +321,3 @@ body {
 }
 
 
-
-@media only screen and (max-width:1200px) {
-
-}
-
-
-
-
-@media only screen and (max-width:768px) {
-
-}
-
-
-
-
-@media only screen and (max-width:425px) {
-
-}
-
-
-
-
-@media only screen and (max-width:300px) {
-
-}
